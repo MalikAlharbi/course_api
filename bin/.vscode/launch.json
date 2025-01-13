@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CourseApiApp",
+            "request": "launch",
+            "mainClass": "com.course.api.CourseApiApp",
+            "projectName": "course_api"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-App<course_api>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.course.api.App",
+            "projectName": "course_api",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
